@@ -1,4 +1,4 @@
-## 常见问题
+## 常见问题ask
 
 <details>
 <summary>给组件绑定的事件为什么无法触发？</summary>
