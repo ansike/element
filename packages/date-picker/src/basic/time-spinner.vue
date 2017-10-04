@@ -31,7 +31,7 @@
         :class="{ 'active': key === minutes }"
         v-text="key"></li>
     </el-scrollbar>
-    <el-scrollbar
+<!--     <el-scrollbar
       v-show="showSeconds"
       @mouseenter.native="emitSelectRange('seconds')"
       class="el-time-spinner__wrapper"
@@ -46,7 +46,7 @@
         class="el-time-spinner__item"
         :class="{ 'active': key === seconds }"
         v-text="key"></li>
-    </el-scrollbar>
+    </el-scrollbar> -->
   </div>
 </template>
 
